@@ -1,2 +1,7 @@
-package config;public class Data {
+package config;
+
+import io.restassured.http.Header;
+
+public class Data {
+    public static final Header REQUEST_HEADER = new Header("Content-type", "application/json");
 }
